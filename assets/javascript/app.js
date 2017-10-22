@@ -125,11 +125,11 @@ var game= {
         // $("#iframe").setAlignment();
         if(game.currentQuestion==questions.length-1){
             // console.log("test1");
-            setTimeout(game.result, 30000);
+            setTimeout(game.result, 3000);
             
         } else {
             // console.log("test2");
-            setTimeout(game.nextQuestion, 30000);
+            setTimeout(game.nextQuestion, 3000);
         }
     },
 
